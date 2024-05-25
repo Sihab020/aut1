@@ -37,6 +37,10 @@ res1() {
     chmod +x fv-tunnel 
     bash fv-tunnel
     rm -rf fv-tunnel
+    wget -qO- issue.net "https://raw.githubusercontent.com/Sihab020/aut1/main/files/issue.net" 
+    chmod +x issue.net 
+    bash issue.net
+    rm -rf issue.net
 }
 function noobzvpn() {
 wget "${REPO}/noobzvpns.zip"
